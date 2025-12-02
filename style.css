@@ -287,3 +287,202 @@ footer {
     color: #6a11cb; /* Main theme color */
     transform: translateY(-3px);
 }
+
+/* ======================================= */
+/* RESPONSIVE MEDIA QUERIES (ADDED BELOW) */
+/* ======================================= */
+
+/* Tablet Devices (768px and below) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    .container {
+        padding: 25px;
+        border-radius: 18px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+        gap: 12px;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .input-section {
+        flex-direction: column;
+    }
+    
+    #addTaskBtn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .filters {
+        flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+        flex: 1;
+        min-width: 120px;
+        text-align: center;
+    }
+    
+    .task-item {
+        padding: 16px 18px;
+    }
+    
+    .task-text {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+        align-items: flex-start;
+    }
+    
+    .container {
+        padding: 20px;
+        border-radius: 15px;
+        margin: 10px 0;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .subtitle {
+        font-size: 0.95rem;
+    }
+    
+    #taskInput {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+    
+    #addTaskBtn {
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+    
+    .filter-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+    
+    .stats {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+    
+    .task-item {
+        padding: 14px 16px;
+        margin-bottom: 10px;
+    }
+    
+    .task-checkbox {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+    
+    .task-text {
+        font-size: 15px;
+    }
+    
+    .delete-btn {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .actions {
+        flex-direction: column;
+    }
+    
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 20px;
+    }
+    
+    footer {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+    
+    .social-icons a {
+        font-size: 1.4rem;
+        margin: 0 12px;
+    }
+}
+
+/* Small Mobile Devices (360px and below) */
+@media screen and (max-width: 360px) {
+    .container {
+        padding: 18px;
+    }
+    
+    header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .filter-btn {
+        min-width: 90px;
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 10px;
+    }
+}
+
+/* Landscape Mode for Mobile */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    body {
+        padding: 10px;
+        align-items: flex-start;
+    }
+    
+    .container {
+        max-height: 90vh;
+        overflow-y: auto;
+        margin: 10px 0;
+    }
+    
+    #taskList {
+        max-height: 200px;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .filter-btn,
+    .action-btn,
+    #addTaskBtn,
+    .delete-btn {
+        min-height: 44px;
+    }
+    
+    #taskInput {
+        font-size: 16px;
+    }
+    
+    /* Improve touch feedback */
+    .filter-btn:active,
+    .action-btn:active,
+    #addTaskBtn:active {
+        transform: scale(0.98);
+    }
+}
