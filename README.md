@@ -72,6 +72,6 @@ Feel free to connect:</p>
 
 <p>
   <a href="https://github.com/">GitHub</a> •
-  <a href="https://linkedin.com/">LinkedIn</a> •
-  <a href="#">Portfolio</a>
+  <a href="[https://linkedin.com/](https://www.linkedin.com/in/harshal-lathiya-43b577258/)">LinkedIn</a> •
+  <a href="https://harshallathiya.github.io/My_Portfolio/">Portfolio</a>
 </p>
