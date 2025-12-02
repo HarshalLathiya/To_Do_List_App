@@ -46,7 +46,7 @@
 
 <!-- You can replace this with your actual GitHub image link -->
 <p align="center">
-  <img src="YOUR_SCREENSHOT_URL_HERE" alt="To-Do App Preview" width="700">
+  <img src="https://github.com/HarshalLathiya/To_Do_List_App/blob/main/SS.png?raw=true" alt="To-Do App Preview" width="700">
 </p>
 
 <hr>
