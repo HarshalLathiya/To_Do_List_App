@@ -67,7 +67,7 @@
 <hr>
 
 <h2>👨‍💻 Author : </h2>
-<p><strong>Lathiya Harshal</strong><br>
+<p><strong>Lathiya Harshal.</strong><br>
 Feel free to connect:</p>
 
 <p>
